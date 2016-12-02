@@ -1,6 +1,7 @@
 # Modules from the Puppet Forge
 mod 'puppetlabs/apache'
 mod 'puppetlabs/stdlib'
+mod 'puppetlabs/concat'
 mod 'puppetlabs/rabbitmq', '5.2.3'
 
 # Modules from Git
