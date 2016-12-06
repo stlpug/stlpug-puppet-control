@@ -13,7 +13,7 @@ class profile::apache {
     group  => '0',
     mode   => '0644',
     owner  => '0',
-    source => 'puppet:///profile/apache/index.html',
+    source => 'puppet:///modules/profile/apache/index.html',
   }
 
   file { '/var/www/html/stlpug.jpeg':
@@ -21,7 +21,7 @@ class profile::apache {
     group  => '0',
     mode   => '0644',
     owner  => '0',
-    source => 'puppet:///profile/apache/stlpug.jpeg',
+    source => 'puppet:///modules/profile/apache/stlpug.jpeg',
   }
 
   file { '/var/www/html/rambo.jpeg':
@@ -29,6 +29,6 @@ class profile::apache {
     group  => '0',
     mode   => '0644',
     owner  => '0',
-    source => 'puppet:///profile/apache/rambo.jpeg',
+    source => 'puppet:///modules/profile/apache/rambo.jpeg',
   }
 }
