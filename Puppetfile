@@ -3,8 +3,4 @@ mod 'puppetlabs/apache'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/rabbitmq', '5.2.3'
-
-# Modules from Git
-mod 'maestrodev/wget',
-  :git => 'https://github.com/maestrodev/puppet-wget.git',
-  :tag => 'v1.7.1'
+mod 'maestrodev/wget',     '1.7.1'
